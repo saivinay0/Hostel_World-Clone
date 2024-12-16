@@ -1,0 +1,24 @@
+nav {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a, nav button {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+nav a:hover, nav button:hover {
+  background-color: #555;
+}
